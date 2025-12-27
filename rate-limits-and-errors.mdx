@@ -1,0 +1,32 @@
+# Rate Limits & Errors
+
+## Error format
+
+```json
+{ "error": "Message" }
+
+Common status codes
+
+    401 Unauthorized
+
+    403 Forbidden
+
+    404 Not Found
+
+    500 Internal Error
+
+
+---
+
+## API Reference pages (`api-reference/`)
+
+### `api-reference/system-readiness.mdx`
+```mdx
+# System Readiness
+
+**GET** `/getSystemReadiness`
+
+Returns a global governance readiness report.
+
+### Scope
+- `readiness`

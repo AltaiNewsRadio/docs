@@ -1,0 +1,15 @@
+# Scopes & Authorization
+
+API keys include explicit scopes stored server-side.
+
+## Available scopes
+
+| Scope | Description |
+|------|------------|
+| readiness | Global system readiness |
+| regionReadiness | Per-region readiness |
+| assessments | Deep and batch assessments |
+
+Requests missing a required scope return:
+
+403 Missing scope
